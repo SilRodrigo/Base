@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+  * @author Rodrigo Silva
+ * @copyright Copyright (c) 2022 Rodrigo Silva (https://github.com/SilRodrigo)
+ * @package Rsilva_Base
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+        <menu>
+                <add id="Rsilva_Base::menu" title="Rsilva" module="Rsilva_Base" translate="title" sortOrder="10" resource="Rsilva_Base::menu" />
+        </menu>
+</config>
