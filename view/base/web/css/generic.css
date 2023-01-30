@@ -1,6 +1,6 @@
 /* 
  * @author Rodrigo Silva
- * @copyright Copyright (c) 2022 Rodrigo Silva (https://github.com/SilRodrigo)
+ * @copyright Copyright (c) 2023 Rodrigo Silva (https://github.com/SilRodrigo)
  * @package Rsilva_Base
  */
 
@@ -24,25 +24,25 @@
     padding-bottom: 10px;
 }
 
-.hpad-5{
+.hpad-5 {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.hpad-10{
+.hpad-10 {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.lpad-5{
+.lpad-5 {
     padding-left: 5px;
 }
 
-.lpad-10{
+.lpad-10 {
     padding-left: 10px;
 }
 
-.lpad-20{
+.lpad-20 {
     padding-left: 20px;
 }
 
@@ -54,7 +54,7 @@
     padding-top: 10px;
 }
 
-.bpad-5{
+.bpad-5 {
     padding-bottom: 5px;
 }
 
@@ -62,24 +62,48 @@
     padding-bottom: 10px;
 }
 
-.rpad-10{
+.bpad-20 {
+    padding-bottom: 20px;
+}
+
+.rpad-10 {
     padding-right: 10px;
 }
 
 /* margin */
 
-.vmarg-5{
+.vmarg-5 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.bmarg-5{
+.bmarg-5 {
     margin-bottom: 5px;
+}
+
+.bmarg-10 {
+    margin-bottom: 10px;
+}
+
+.lmarg-5 {
+    margin-left: 5px;
+}
+
+.lmarg-10 {
+    margin-left: 10px;
+}
+
+.rmarg-5 {
+    margin-right: 5px;
+}
+
+.rmarg-10 {
+    margin-right: 10px;
 }
 
 /* mouse */
 
-.pointer{
+.pointer {
     cursor: pointer;
 }
 
@@ -99,15 +123,19 @@
     align-items: center;
 }
 
-.justify-content-end{
+.justify-content-end {
     justify-content: end;
 }
 
-.justify-content-center{
+.justify-content-center {
     justify-content: center;
 }
 
-.col-gapad-5{
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.col-gapad-5 {
     column-gap: 5px;
 }
 
@@ -173,7 +201,7 @@
 
 /* Font */
 
-.fs-12{
+.fs-12 {
     font-size: 12px;
 }
 
@@ -185,7 +213,7 @@
     font-style: italic;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -195,66 +223,12 @@
     text-align: center;
 }
 
-/* Responsivity */
+[class^="box-clamp"] {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
-@media screen and (min-width: 768px) {
-    .col-md-1 {
-        flex: 0 0 auto;
-        width: 8.33333333%;
-    }
-    
-    .col-md-2 {
-        flex: 0 0 auto;
-        width: 16.66666667%;
-    }
-    
-    .col-md-3 {
-        flex: 0 0 auto;
-        width: 25%;
-    }
-    
-    .col-md-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%;
-    }
-    
-    .col-md-5 {
-        flex: 0 0 auto;
-        width: 41.66666667%;
-    }
-    
-    .col-md-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    
-    .col-md-7 {
-        flex: 0 0 auto;
-        width: 58.33333333%;
-    }
-    
-    .col-md-8 {
-        flex: auto;
-        width: 66.66666667%;
-    }
-    
-    .col-md-9 {
-        flex: 0 0 auto;
-        width: 75%;
-    }
-    
-    .col-md-10 {
-        flex: 0 0 auto;
-        width: 83.33333333%;
-    }
-    
-    .col-md-11 {
-        flex: 0 0 auto;
-        width: 91.66666667%;
-    }
-    
-    .col-md-12 {
-        flex: 0 0 auto;
-        width: 100%;
-    }
+.box-clamp-1 {
+    -webkit-line-clamp: 1;
 }

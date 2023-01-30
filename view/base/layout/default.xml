@@ -2,12 +2,13 @@
 <!--
 /* 
  * @author Rodrigo Silva
- * @copyright Copyright (c) 2022 Rodrigo Silva (https://github.com/SilRodrigo)
+ * @copyright Copyright (c) 2023 Rodrigo Silva (https://github.com/SilRodrigo)
  * @package Rsilva_Base
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <css src="Rsilva_Base::css/generic.css"/>
+        <css src="Rsilva_Base::css/generic-md.css" media="screen and (min-width: 768px)"/>
     </head>
 </page>
